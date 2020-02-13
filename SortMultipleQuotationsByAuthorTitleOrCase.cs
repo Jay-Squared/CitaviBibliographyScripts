@@ -49,7 +49,7 @@ namespace SwissAcademic.Citavi.Comparers
 			}
 			else if (xCriterionFour != yCriterionFour)
 			{
-				return xCriterionFour.CompareTo(yCriterionFour);
+				return -xCriterionFour.CompareTo(yCriterionFour);
 			}
 			else if (xCriterionFive != yCriterionFive)
 			{
